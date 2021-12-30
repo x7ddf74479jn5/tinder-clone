@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "incremental": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "exclude": ["node_modules", ".expo", ".expo-shared", "dist"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.mjs"]
+}
