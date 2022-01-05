@@ -17,3 +17,5 @@ web-build/
 .eslintcache
 yarn-error.log
 .env
+google-services.json
+GoogleService-Info.plist
